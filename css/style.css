@@ -94,8 +94,11 @@
   }
   
   .btn-small {
+    background-color: blue;
+    border: 1px solid var(--primary-color);
     padding: 8px 16px;
     font-size: 14px;
+    color: white;
   }
   
   /* Cookie Notice */
