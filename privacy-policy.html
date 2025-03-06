@@ -20,24 +20,28 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <header>
+ <!-- Header Bölümü -->
+ <header>
+  <div class="container">
+      <div class="logo">
+          <h1>TürkiyeTur</h1>
+      </div>
       <nav>
-        <div class="logo">
-          <h1>Türkiye Turizm</h1>
-        </div>
-        <div class="nav-links">
-          <a href="index.html">Ana Sayfa</a>
-          <a href="privacy-policy.html" class="active">Gizlilik Politikası</a>
-          <a href="cookie-policy.html">Çerez Politikası</a>
-          <a href="contact.html">İletişim</a>
-        </div>
-        <div class="mobile-menu" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+          <ul>
+              <li><a href="#home">Ana Sayfa</a></li>
+              <li><a href="#destinations">Destinasyonlar</a></li>
+              <li><a href="#tours">Turlar</a></li>
+              <li><a href="#hotels">Oteller</a></li>
+              <li><a href="#contact">İletişim</a></li>
+          </ul>
       </nav>
-    </header>
+      <div class="mobile-menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+  </div>
+</header>
 
     <main style="padding: 120px 5% 4rem">
       <h1>Gizlilik Politikası</h1>
@@ -124,24 +128,56 @@
       </div>
     </main>
 
-    <footer>
-      <div class="footer-content">
-        <div class="footer-section">
-          <h3>İletişim</h3>
-          <p>Email: info@turkiyeturizm.com</p>
-          <p>Tel: +90 (212) 555 0123</p>
-          <p>Adres: İstiklal Caddesi No:123, Beyoğlu/İstanbul</p>
+      <!-- Footer -->
+      <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-about">
+                    <h3>TürkiyeTur</h3>
+                    <p>20 yılı aşkın tecrübemizle Türkiye'nin en güzel köşelerini keşfetmeniz için hizmetinizdeyiz. Kültür turlarından lüks tatil paketlerine, mavi yolculuktan doğa yürüyüşlerine kadar tüm Türkiye deneyimini sizlere sunuyoruz.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Hızlı Bağlantılar</h3>
+                    <ul>
+                        <li><a href="#">Ana Sayfa</a></li>
+                        <li><a href="#destinations">Destinasyonlar</a></li>
+                        <li><a href="#tours">Turlar</a></li>
+                        <li><a href="#hotels">Oteller</a></li>
+                        <li><a href="#about">Hakkımızda</a></li>
+                        <li><a href="#contact">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Faydalı Bilgiler</h3>
+                    <ul>
+                        <li><a href="#">Sıkça Sorulan Sorular</a></li>
+                        <li><a href="privacy-policy.html">Gizlilik Politikası</a></li>
+                        <li><a href="cookie-policy.html">Çerez Politikası</a></li>
+                        <li><a href="#">Rezervasyon Koşulları</a></li>
+                        <li><a href="#">İptal ve İade Politikası</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Bültenimize Abone Olun</h3>
+                    <p>En yeni tur paketleri, özel indirimler ve seyahat tavsiyeleri için bültenimize abone olun.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="E-posta Adresiniz" required>
+                        <button type="submit" class="btn-small">Abone Ol</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-social">
+                    <a href="#"><i class="icon-facebook"></i></a>
+                    <a href="#"><i class="icon-instagram"></i></a>
+                    <a href="#"><i class="icon-twitter"></i></a>
+                    <a href="#"><i class="icon-youtube"></i></a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 TürkiyeTur. Tüm hakları saklıdır.</p>
+                </div>
+            </div>
         </div>
-        <div class="footer-section">
-          <h3>Hızlı Bağlantılar</h3>
-          <a href="privacy-policy.html">Gizlilik Politikası</a>
-          <a href="cookie-policy.html">Çerez Politikası</a>
-          <a href="contact.html">İletişim</a>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2024 Türkiye Turizm. Tüm hakları saklıdır.</p>
-      </div>
     </footer>
 
     <script src="js/main.js"></script>
